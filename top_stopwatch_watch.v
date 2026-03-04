@@ -1,4 +1,4 @@
-`timescale 1ns / 1ps
+`timescale 1ns / 1ps // branch test A
 
 module top_stopwatch_watch (
     input        clk,
@@ -122,4 +122,5 @@ module top_stopwatch_watch (
         .i_sel1 (w_fnd_data_t),
         .o_mux  (fnd_data)
     );
+
 endmodule
